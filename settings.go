@@ -518,7 +518,7 @@ type UpdateSettingsOptions struct {
 	EmailAuthorInBody                                     *bool              `url:"email_author_in_body,omitempty" json:"email_author_in_body,omitempty"`
 	EmailRestrictions                                     *string            `url:"email_restrictions,omitempty" json:"email_restrictions,omitempty"`
 	EmailRestrictionsEnabled                              *bool              `url:"email_restrictions_enabled,omitempty" json:"email_restrictions_enabled,omitempty"`
-	EnabledGitAccessProtocol                              *string            `url:"enabled_git_access_protocol,omitempty" json:"enabled_git_access_protocol,omitempty"`
+	EnabledGitAccessProtocol                              *string            `url:"enabled_git_access_protocol" json:"enabled_git_access_protocol"`
 	EnforceNamespaceStorageLimit                          *bool              `url:"enforce_namespace_storage_limit,omitempty" json:"enforce_namespace_storage_limit,omitempty"`
 	EnforcePATExpiration                                  *bool              `url:"enforce_pat_expiration,omitempty" json:"enforce_pat_expiration,omitempty"`
 	EnforceSSHKeyExpiration                               *bool              `url:"enforce_ssh_key_expiration,omitempty" json:"enforce_ssh_key_expiration,omitempty"`
